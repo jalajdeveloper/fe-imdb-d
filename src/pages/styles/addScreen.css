@@ -1,0 +1,77 @@
+.add-main {
+    padding: 12px;
+}
+.go-back {
+    margin-left: 12px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 12px;
+}
+.form-container form {
+    margin-top: 12px;
+}
+.input-container label {
+    font-size: 14px;
+    margin-bottom: 4px;
+    opacity: 0.5;
+}
+.text-input {
+    height: 32px;
+    font-size: 16px;
+    padding: 4px 8px;
+}
+.text-area {
+    height: 50px;
+    resize: none;
+    padding: 4px;
+    font-family: inherit;
+}
+.submit-btn {
+    height: 32px;
+    padding: 4px 8px;
+    width: 100%;
+    font-weight: bold;
+}
+.selected-actors-list {
+    padding: 4px;
+    border: 1px solid #ccc;
+    overflow-y: hidden;
+}
+.selected-actors-list-container {
+    display: flex;
+    margin-top: 8px;
+}
+.selected-actor {
+    border: 1px solid #ddd;
+    margin: 4px 8px;
+    padding: 8px;
+    position: relative;
+    border-radius: 4px;
+}
+.remove-selected-actor-icon {
+    position: absolute;
+    top: -12px;
+    right: -2px;
+    color: crimson;
+    height: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.forms-container {
+    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+    .forms-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

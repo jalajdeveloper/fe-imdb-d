@@ -1,0 +1,53 @@
+.main {
+    padding: 24px;
+}
+.movies-container {
+    display: flex;
+    overflow-y: hidden;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.movies-head {
+    border-left: 5px solid #f5c518;
+    padding: 12px;
+    margin-left: 12px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.add-movie-btn {
+    font-size: 14px;
+    background-color: #1a1a1a;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 4px 8px;
+    text-align: center;
+}
+.sub-head {
+    color: #ffffffb3;
+    padding: 12px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.forward-icon {
+    margin-left: 12px;
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 575px) {
+    .movies-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
